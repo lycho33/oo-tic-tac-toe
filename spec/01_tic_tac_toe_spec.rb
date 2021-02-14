@@ -90,7 +90,7 @@ describe './lib/tic_tac_toe.rb' do
 
         index = 0
         expect(game.position_taken?(index)).to be(true)
-
+        
         index = 8
         expect(game.position_taken?(index)).to be(true)
 
